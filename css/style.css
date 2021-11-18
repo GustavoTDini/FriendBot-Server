@@ -1,0 +1,27 @@
+.footer {
+    height: fit-content;
+    display: block;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    margin-bottom: 56px;
+}
+
+body {
+    margin-bottom: auto;
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.cardImage {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
