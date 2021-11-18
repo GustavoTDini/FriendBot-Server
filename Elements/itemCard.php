@@ -4,7 +4,7 @@ function echoCardDetails($title, $text, $imagePath, $date, $category)
 {
 
     if (!isset($imagePath)) {
-        $imagePath = '\images\\placeHolder 300x300.png';
+        $imagePath = '..\images\\placeHolder 300x300.png';
     }
 
     echo '<div class="card mb-3">

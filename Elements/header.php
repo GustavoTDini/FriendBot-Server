@@ -2,7 +2,7 @@
 setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 date_default_timezone_set('America/Sao_Paulo');
 $datetime = utf8_encode(strftime('%A, %d de %B de %Y, %R', strtotime('now')));
-$imagePath = "\images\\turingLogoServer.png";
+$imagePath = "..\images\\turingLogoServer.png";
 echo '<header class="py-3">
         <div class="container d-flex flex-wrap justify-content-evenly">
             <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none h-auto col-4">
